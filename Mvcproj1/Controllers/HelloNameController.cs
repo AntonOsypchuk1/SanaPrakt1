@@ -4,10 +4,7 @@ using Mvcproj1.Models;
 namespace MvcMovie.Controllers
 {
     public class HelloNameController : Controller
-    {
-        // 
-        // GET: /HelloWorld/
-
+    { 
         public ActionResult Index()
         {
             Name name = new Name("");
