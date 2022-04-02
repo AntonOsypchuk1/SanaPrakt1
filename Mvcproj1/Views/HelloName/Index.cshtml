@@ -1,0 +1,10 @@
+﻿@model Mvcproj1.Models.Name;
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<form asp-action="Welcome" method="post">
+    <label>Enter Name</label>
+    <input id ="N1" name ="FirstName" type ="text" value = "@Model.FirstName" />
+</form>
