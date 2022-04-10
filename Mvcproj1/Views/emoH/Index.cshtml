@@ -1,0 +1,19 @@
+﻿@model Mvcproj1.Models.Name
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=display-width" />
+    <title>Index</title>
+</head>
+<body>
+    <form asp-action="Welcome" method="post">
+        <label>Enter Name</label>
+        <input id ="N1" name ="FirstName" type ="text" value = "@Model.FirstName" />
+    </form>
+</body>
+</html>

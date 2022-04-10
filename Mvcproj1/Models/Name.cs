@@ -2,11 +2,6 @@
 {
     public class Name
     {
-        public string FirstName { get; set; }
-
-        public Name(string firstName)
-        {
-            FirstName = firstName;
-        }
+        public string? FirstName { get; set; }
     }
 }
